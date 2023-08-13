@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: hsl(217, 54%, 11%);
+}
+
+#root {
+  width: 100vw;
+  height: 98vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#card {
+  width: 350px;
+  padding: 15px;
+  background-color: hsl(216, 50%, 16%);
+}
+
+.etherium-img {
+  width: 100%;
+  padding: 10px 0;
+}
+
+#etherium-heading {
+  color: hsl(0, 0%, 100%);
+  padding: 10px 0;
+}
+
+p {
+  font-size: 15px;
+  padding: 10px 0;
+}
+
+.etherium-para {
+  color: hsl(215, 32%, 27%);
+}
+
+.etherium-icon {
+  color: hsl(178, 100%, 50%);
+}
+
+.clock,
+hr {
+  color: hsl(215, 32%, 27%);
+}
+
+hr {
+  padding: 10px 0;
+}
+
+.icon {
+  width: 15px;
+}
+
+.circle-img {
+  width: 30px;
+  border: 2px solid hsl(0, 0%, 100%);
+  border-radius: 15px;
+}
+
+.name {
+  color: hsl(0, 0%, 100%);
+}
