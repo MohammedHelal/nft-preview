@@ -3,13 +3,17 @@
 function NFTCard() {
   return (
     <div className="card">
-      <img id="etherium-img" src="" alt="" />
+      <img
+        id="etherium-img"
+        src="./images/image-equilibrium.jpg"
+        alt="Etherium image"
+      />
       <h1 id="etherium-heading">Equilibrium #3429</h1>
       <p className="etherium-para">
         Our Equilibrium collection promotes balance and calm.
       </p>
-      <div className="flex">
-        <p className="etherium-icon">
+      <div className="flex icons-div">
+        <p className="etherium-icon flex">
           <img
             className="icon"
             src="./images/icon-ethereum.svg"
@@ -17,7 +21,7 @@ function NFTCard() {
           />{" "}
           0.042 ETH
         </p>
-        <p className="clock">
+        <p className="clock flex">
           <img
             className="icon"
             src="./images/icon-clock.svg"
@@ -26,17 +30,14 @@ function NFTCard() {
           3 days left
         </p>
       </div>
-      <hr />
-      <div className="flex">
+      <p className="etherium-para flex-para">
         <img
           id="circle-img"
           src="./images/image-avatar.png"
           alt="Profile avatar image"
         />
-        <p className="etherium-para">
-          Creation of <span className="name">Jules Wyvern</span>
-        </p>
-      </div>
+        Creation of <span className="name">Jules Wyvern</span>
+      </p>
     </div>
   );
 }
