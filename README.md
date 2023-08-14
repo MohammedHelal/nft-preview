@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [NFT Preview Card Repo](https://github.com/MohammedHelal/nft-preview)
+- Live Site URL: [NFT Preview Card Site](https://mohammedhelal.github.io/nft-preview/)
 
 ## My process
 
