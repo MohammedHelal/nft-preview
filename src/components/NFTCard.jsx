@@ -8,6 +8,11 @@ function NFTCard() {
         src="./images/image-equilibrium.jpg"
         alt="Etherium image"
       />
+      <img
+        id="etherium-view"
+        src="./images/icon-view.svg"
+        alt="Etherium view cover"
+      />
       <h1 id="etherium-heading">Equilibrium #3429</h1>
       <p className="etherium-para">
         Our Equilibrium collection promotes balance and calm.

@@ -13,34 +13,63 @@ body {
 
 #root {
   width: 100vw;
-  height: 98vh;
+  height: 96vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 }
 
 .card {
-  width: 330px;
+  position: relative;
+  width: 300px;
   padding: 25px;
   background-color: hsl(216, 50%, 16%);
   border-radius: 15px;
+  z-index: 2;
 }
 
 #etherium-img {
+  position: relative;
   width: 100%;
   height: 250px;
   border-radius: 15px;
+  cursor: pointer;
+  z-index: 5;
+}
+
+#etherium-img:hover {
+  z-index: -10;
+}
+
+#etherium-view {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  padding: 101px;
+  border-radius: 15px;
+  background-color: hsla(178, 100%, 50%, 0.5);
+  cursor: pointer;
+}
+
+#etherium-view:hover {
+  z-index: 10;
 }
 
 #etherium-heading {
   color: hsl(0, 0%, 100%);
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
+  cursor: pointer;
+}
+
+#etherium-heading:hover {
+  color: hsl(178, 100%, 50%);
 }
 
 p {
-  font-size: 17px;
-  font-weight: 400;
+  font-size: 15px;
+  font-weight: 300;
   color: hsl(215, 51%, 70%);
 }
 
@@ -50,13 +79,8 @@ p {
   align-items: center;
 }
 
-.etherium-icon,
-.clock {
-  font-size: 15px;
-}
-
 .etherium-icon {
-  font-weight: 600;
+  font-weight: 400;
   color: hsl(178, 100%, 50%);
 }
 
@@ -72,7 +96,7 @@ p {
 
 #circle-img {
   width: 30px;
-  border: 2px solid hsl(0, 0%, 100%);
+  border: 1px solid hsl(0, 0%, 100%);
   border-radius: 30px;
   margin-right: 10px;
 }
@@ -91,4 +115,9 @@ p {
 .name {
   padding-left: 5px;
   color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.name:hover {
+  color: hsl(178, 100%, 50%);
 }
