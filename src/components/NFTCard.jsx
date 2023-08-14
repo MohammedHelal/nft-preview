@@ -14,13 +14,11 @@ function NFTCard() {
         alt="Etherium view cover"
       />
       <h1 id="etherium-heading">Equilibrium #3429</h1>
-      <p className="etherium-para">
-        Our Equilibrium collection promotes balance and calm.
-      </p>
+      <p>Our Equilibrium collection promotes balance and calm.</p>
       <div className="flex icons-div">
         <p className="etherium-icon flex">
           <img
-            className="icon"
+            className="eth-icon"
             src="./images/icon-ethereum.svg"
             alt="Etherium icon"
           />{" "}
@@ -28,14 +26,14 @@ function NFTCard() {
         </p>
         <p className="clock flex">
           <img
-            className="icon"
+            className="clock-icon"
             src="./images/icon-clock.svg"
             alt="Clock icon"
           />{" "}
           3 days left
         </p>
       </div>
-      <p className="etherium-para flex-para">
+      <p className="flex-para">
         <img
           id="circle-img"
           src="./images/image-avatar.png"

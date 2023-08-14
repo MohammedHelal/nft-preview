@@ -11,13 +11,18 @@ body {
   font-family: Outfit;
 }
 
+p {
+  font-size: 15px;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+}
+
 #root {
   width: 100vw;
   height: 96vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1;
 }
 
 .card {
@@ -67,16 +72,18 @@ body {
   color: hsl(178, 100%, 50%);
 }
 
-p {
-  font-size: 15px;
-  font-weight: 300;
-  color: hsl(215, 51%, 70%);
+.flex,
+.flex-para {
+  display: flex;
+  align-items: center;
 }
 
 .flex {
-  display: flex;
   justify-content: space-between;
-  align-items: center;
+}
+
+.flex-para {
+  justify-content: flex-start;
 }
 
 .etherium-icon {
@@ -84,12 +91,13 @@ p {
   color: hsl(178, 100%, 50%);
 }
 
-.clock img {
+.clock-icon {
   color: hsl(215, 51%, 70%);
   width: 20px;
+  padding-right: 5px;
 }
 
-.icon {
+.eth-icon {
   width: 15px;
   padding-right: 5px;
 }
@@ -104,12 +112,6 @@ p {
 .icons-div {
   padding-bottom: 10px;
   border-bottom: 1px solid hsl(215, 32%, 27%);
-}
-
-.flex-para {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
 }
 
 .name {
